@@ -14,7 +14,7 @@ import SectionTitle from '../../../../components/Shared/SectionTitle';
 const Category = () => {
     return (
         <div className='container mx-auto mt-20'>
-            <SectionTitle subHeading={"From 11:00am to 10:00pm"} heading={"Order Online"}/>
+            <SectionTitle subHeading={"From 10:00am to 11:00pm"} heading={"Order Online"}/>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
