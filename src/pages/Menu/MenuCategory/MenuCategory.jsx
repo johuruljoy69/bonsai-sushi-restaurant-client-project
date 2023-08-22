@@ -18,7 +18,7 @@ const MenuCategory = ({ items, title, subtitle, img }) => {
             </div>
             <div className="text-center my-10">
                 <button className="tw-btn">Order Your Favourite Foods </button>
-            </div>
+            </div>                   
         </div>
     );
 };

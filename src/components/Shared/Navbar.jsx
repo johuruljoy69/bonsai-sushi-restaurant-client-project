@@ -12,6 +12,7 @@ const Navbar = () => {
     const navItems = <>
         <NavLink className={({ isActive }) => (isActive ? 'tw-menu-bg' : 'hover:bg-orange-600 py-2 px-2')} to="/">Home</NavLink>
         <NavLink className={({ isActive }) => (isActive ? 'tw-menu-bg' : 'hover:bg-orange-600 py-2 px-2')} to="/menu">Our Menu</NavLink>
+        <NavLink className={({ isActive }) => (isActive ? 'tw-menu-bg' : 'hover:bg-orange-600 py-2 px-2')} to="/order">Order Food</NavLink>
         <NavLink className={({ isActive }) => (isActive ? 'tw-menu-bg' : 'hover:bg-orange-600 py-2 px-2')} to="/dashboard">Dashboard</NavLink>
         <NavLink className={({ isActive }) => (isActive ? 'tw-menu-bg' : 'hover:bg-orange-600 py-2 px-2')} to="/shop"><span className="flex items-center gap-2">Shop <FaShoppingCart /></span></NavLink>
         <NavLink className={({ isActive }) => (isActive ? 'tw-menu-bg' : 'hover:bg-orange-600 py-2 px-2')} to="/contact">Contact Us</NavLink>
@@ -34,7 +35,7 @@ const Navbar = () => {
                     </div>{/*end of  Medium and large navbar */}
 
                     {/* user login/logout */}
-                    <div className="flex items-center gap-5">
+                    <div className="flex items-center gap-7">
                         <div className="dropdown">
                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                 <div className="w-10 rounded-full border border-white">
