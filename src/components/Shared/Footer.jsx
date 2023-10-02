@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='pt-3 pb-3 bg-gray-950'>
-                <p className='text-center'><small>Copyright © MicroDreamIT-2023 All rights reserved.</small></p>
+                <p className='text-center'><small>Copyright © 2023 All rights reserved.</small></p>
             </div>
         </div>
     );

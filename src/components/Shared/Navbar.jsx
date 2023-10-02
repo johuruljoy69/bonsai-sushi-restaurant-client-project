@@ -12,7 +12,7 @@ const Navbar = () => {
     const navItems = <>
         <NavLink className={({ isActive }) => (isActive ? 'tw-menu-bg' : 'hover:bg-orange-600 py-2 px-2')} to="/">Home</NavLink>
         <NavLink className={({ isActive }) => (isActive ? 'tw-menu-bg' : 'hover:bg-orange-600 py-2 px-2')} to="/menu">Our Menu</NavLink>
-        <NavLink className={({ isActive }) => (isActive ? 'tw-menu-bg' : 'hover:bg-orange-600 py-2 px-2')} to="/order">Order Food</NavLink>
+        <NavLink className={({ isActive }) => (isActive ? 'tw-menu-bg' : 'hover:bg-orange-600 py-2 px-2')} to="/order/salad">Order Food</NavLink>
         <NavLink className={({ isActive }) => (isActive ? 'tw-menu-bg' : 'hover:bg-orange-600 py-2 px-2')} to="/dashboard">Dashboard</NavLink>
         <NavLink className={({ isActive }) => (isActive ? 'tw-menu-bg' : 'hover:bg-orange-600 py-2 px-2')} to="/shop"><span className="flex items-center gap-2">Shop <FaShoppingCart /></span></NavLink>
         <NavLink className={({ isActive }) => (isActive ? 'tw-menu-bg' : 'hover:bg-orange-600 py-2 px-2')} to="/contact">Contact Us</NavLink>
